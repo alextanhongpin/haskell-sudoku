@@ -1,5 +1,5 @@
 import strutils, sequtils
-import exact_cover
+import mainpkg/cover
 
 var
   input: seq[seq[int]] = @[
